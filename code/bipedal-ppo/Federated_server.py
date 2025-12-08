@@ -901,7 +901,7 @@ class FederatedLearningServer:
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Federated Learning Server with Centralized Logging')
+    parser = argparse.ArgumentParser(description='Federated Learning Server.')
     parser.add_argument('--host', type=str, default='localhost', help='Server host')
     parser.add_argument('--port', type=int, default=5000, help='Server port')
     parser.add_argument('--clients', type=int, default=3, help='Expected number of clients')
