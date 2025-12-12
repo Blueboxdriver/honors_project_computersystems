@@ -28,4 +28,4 @@ The following parameters can be applied:
 
 --rounds Sets the amount of rounds the client will do. Please make sure all clients are doing an equal number of rounds.
 
---timesteps Sets the amount of timesteps performed per round before having the server gather and redistribute weights.
+--episodes Sets the amount of episodes performed per round before having the server gather and redistribute weights.
